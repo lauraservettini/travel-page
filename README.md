@@ -4,11 +4,12 @@ Questo progetto è una demo di un sito di viaggi.
 
 La pagina è puramente dimostrativa, al suo interno infatti sono stati inseriti dei testi segnaposto standard.
 
-Nella pagina places.html (Destinations nella nav), i dettagli sono stati caricati tramite script Javascript rendendo visibile una sezione aside inizialmente nascosta.
+Nella pagina places.html (Destinations nella nav), i dettagli di approfondimento relativi ad ogni città sono stati caricati tramite script Javascript rendendo visibile una sezione aside, inizialmente nascosta, cliccando sul relativo tasto 
+"explore".
 
-Nella pagina about.html (Aboute nella nav), è stata inserita una google map con un indirizzo fittizio e la mail utilizzata test@test.com non è valida per l'invio.
+Nella pagina about.html (About nella nav), è stata inserita una google map con un indirizzo fittizio e la mail utilizzata test@test.com non è valida per l'invio.
 
-Il sito è stato costruito utilizzando: 
+Il sito è responsive ed stato costruito utilizzando: 
 
 - HTML
 - CSS
@@ -21,9 +22,10 @@ Per vedere un'anteprima si può andare al seguente link:
 https://lauraservettini.github.io/travel-page/
 
 ___
+
 #### **MIT License**
 
-Copyright (c) 2023 Laura Servettini
+Copyright © 2023 Laura Servettini
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
