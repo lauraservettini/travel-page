@@ -1,0 +1,147 @@
+#hero {
+  height: 50rem;
+  background-image: url(../img/ocean.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#hero-content {
+  width: 80%;
+  max-width: 60rem;
+  background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding:0.1rem 0;
+  margin: 0 auto;
+  position: relative;
+  top: 35%;
+}
+
+#hero-content div {
+  margin:0 0.5rem;
+
+}
+
+#hero-content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 3.15rem;
+  font-family: "Raleway", sans-serif;
+  margin: 1rem auto 0 auto;
+}
+
+#hero-content p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+#hero-content a {
+  text-decoration: none;
+  background-color: rgb(255, 251, 0);
+  padding: 0.75rem 1.5rem;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  position: relative;
+  top: 0.9rem;
+}
+
+#hero-content a:hover {
+  background-color: rgb(255, 249, 73);
+  padding: 0.85rem 1.6rem;
+}
+
+#highlights {
+  padding: 1.5rem;
+  background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));
+}
+
+#hightlights-container {
+  width: 80%;
+  max-width: 60rem;
+}
+
+#highlights h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(59, 65, 64);
+  margin: 1.5rem 0;
+}
+
+#destinations {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2.5rem;
+  justify-content: center;
+}
+
+.destination {
+  margin: 0 1.25rem;
+  text-transform: uppercase;
+  color: rgb(124, 126, 123);
+}
+
+.destination p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1.25rem 0;
+}
+
+.destination strong {
+  color: rgb(0, 160, 117);
+}
+
+.destination img {
+  height: 12.5rem;
+  width: 15.65rem;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  object-fit: cover;
+}
+
+@media(max-width: 60rem) {
+  #destinations {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .destination {
+    width: 90%;
+    text-align: center;
+  }
+  
+  .destination img {
+    width: 90%;
+    height: auto;
+}
+}
+
+@media(max-width: 28rem) {
+
+  #hero-content h1 {
+  font-size: 2.5rem;
+  }
+
+  #hero-content p {
+    font-size: 1.1rem;
+  }
+
+  #hero-content a {
+    padding: 0.65rem 1rem;
+    font-size: 1rem;
+    top: 0.7rem;
+  }
+  
+  #highlights h2 {
+    font-size: 1.8rem;
+  }
+}

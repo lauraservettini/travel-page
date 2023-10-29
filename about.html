@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/shared.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <script src="scripts/send-email.js" defer></script>
+    <script src="scripts/aside-menu-toggle.js" defer></script>
+    <title>About</title> 
+    <meta name="description" content="All about us, if you want you can also mail us!">
+  </head>
+  <body>
+    <header>
+      <div class="page-logo">
+        <a href="index.html">Travel Goals</a>
+      </div>
+      <nav>
+        <ul id="navbar-nav">
+          <li><a href="places.html">Destinations</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="mobile-menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+  </header>
+  <aside id="nav-aside">
+    <nav>
+      <ul>
+        <li><a href="places.html">Destinations</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    </nav>
+  </aside>
+    <main>
+      <section>
+        <div id="image"></div>
+      </section>
+      <section id="contact-us" class="container">
+        <div id="about-us">
+          <h2>About us</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
+            perspiciatis tempora facilis fuga inventore eius, consectetur deserunt
+            provident, harum nihil laudantium, dicta ducimus illum repellat a
+            velit qui officia non?
+          </p>
+        </div>
+        <div>
+          <div id="google-map-div">
+            <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.6605082364176!2d13.500275575859503!3d43.279487676521775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132df521ade56a59%3A0x1765f5ebc13e5440!2sCentro%20Commerciale%20Val%20di%20Chienti!5e0!3m2!1sit!2sit!4v1697925968456!5m2!1sit!2sit" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>
+              <h2>Where we are</h2>
+              <p>
+                Via Giovan Battista Velluti, 31 <br>
+                62100 Piediripa MC <br>
+                c/o Centro Commerciale Valdichienti
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>Contact us</h2>
+          <form>
+            <div>
+              <label for="yourEmail">Your email</label>
+              <input type="email" name="yourEmail" id="yourEmail" required/>
+            </div>
+            <div>
+              <label for="oggetto">Object</label>
+              <input type="text" name="oggetto" id="oggetto" required/>
+            </div>
+            <div>
+              <label class="msg-label" for="message">Your message</label>
+              <textarea name="message" id="message" rows="10" required></textarea> <br />
+            </div>
+            <button type="submit" id="send-button">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="footer-section">
+        <div>
+          <p>Copyright © 2023 Laura Servettini</p>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a href="https://instagram.com">
+                <img src="img/icon/insta.png" alt="Instagram logo" />
+              </a>
+            </li>
+            <li>
+              <a href="https://facebook.com">
+                <img src="img/icon/facebook.png" alt="Facebook logo" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

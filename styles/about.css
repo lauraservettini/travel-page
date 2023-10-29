@@ -1,0 +1,123 @@
+body {
+  background: radial-gradient(rgb(23, 23, 23), rgb(65, 65, 65));
+  color: rgb(68, 68, 68);
+}
+
+#image {
+  background-image: url(../img/ocean.jpg);
+  height: 28rem;
+  background-position: center;
+  background-size: cover;
+}
+
+main {
+  text-align: center;
+}
+
+#contact-us {
+  color: rgb(181, 183, 184);
+  padding: 2.5 1rem;
+  margin: 2rem auto;
+}
+
+#contact-us p {
+  margin: 0 auto;
+  text-align: justify;
+}
+
+#about-us {
+  margin-bottom: 3rem;
+}
+
+#google-map-div {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  border: 1px solid rgb(245, 245, 245);
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgb(245, 245, 245);
+  color: rgb(65, 65, 65);
+  gap: 1rem;
+  margin: 0 auto 3rem auto;
+  overflow: hidden;
+}
+
+#google-map-div div {
+  width: 50%;
+  text-align: left;
+}
+
+#google-map-div p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+label {
+  display: block;
+  margin: 0 auto 0.5rem auto;
+}
+
+input,
+textarea {
+  margin-bottom: 1rem;
+}
+
+#message,
+input,
+label,
+#contact-us p,
+#google-map-div {
+  width: 80%;
+  min-width: 14rem;
+  max-width: 50rem;
+}
+
+#google-map {
+  height: 20rem;
+  width: 50%;
+  box-shadow: 4px 0 8px rgb(180, 180, 180);
+}
+
+.msg-label {
+  display: block;
+}
+
+button {
+  font: inherit;
+  background-color: rgb(181, 183, 184);
+  padding: 0.35rem 0.8rem;
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+button:hover {
+  background-color: rgb(200, 200, 200);
+  padding: 0.45rem 1rem;
+}
+
+@media (max-width: 48rem) {
+  #google-map-div {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  #google-map {
+    height: 15rem;
+    width: 100%;
+    box-shadow: 0 4px 8px rgb(180, 180, 180);
+  }
+
+  #google-map-div div {
+    width: 100%;
+    text-align: center;
+  }
+
+  #google-map-div p {
+    text-align: center;
+    margin: 0 auto 1rem auto;
+  }
+}

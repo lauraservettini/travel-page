@@ -1,0 +1,173 @@
+body {
+  background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+  color: rgb(68, 68, 68);
+}
+
+.page-logo a {
+  color: rgb(183, 230, 235);
+}
+
+header {
+  position: static;
+}
+
+nav ul a {
+  color: rgb(183, 230, 235);
+}
+
+nav ul a:hover {
+  background-color: rgb(183, 230, 235);
+  color: rgb(59, 59, 59);
+}
+
+.mobile-menu-btn span {
+  background-color: rgb(183, 230, 235);
+}
+
+#aside-detail {
+  display: none;
+  background-color: rgb(215, 230, 233);
+  border-radius: 6px;
+  margin-bottom: 1.25rem;
+}
+
+#aside-detail h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 auto 1rem auto;
+}
+
+#img-detail-div {
+  margin: 0 auto;
+  padding: 1.25rem 0;
+  width: 95%;
+  overflow: hidden;
+}
+
+#img-detail {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  width: 100%;
+  height: 28rem;
+  object-fit: cover;
+}
+
+#detail-container {
+  margin: 0 auto;
+  padding: 0 0 1.25rem 0;
+  width: 95%;
+}
+
+#detail-contact-us {
+  text-align: center;
+}
+
+#detail-contact-us a {
+  text-decoration: none;
+  background-color: rgb(147, 200, 206);
+  position: relative;
+  top: 0.5rem;
+  padding: 0.6rem 1.1rem;
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#detail-contact-us a:hover {
+  background-color: rgb(179, 207, 210);
+  padding: 0.7rem 1.3rem;
+}
+
+main ul {
+  margin: 0 auto 3rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+main li {
+  display: flex;
+  background-color: white;
+  box-shadow: 1px 1px 4px, rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+main li:nth-of-type(3),
+li:nth-of-type(6) {
+  grid-column: 1 / span 2;
+}
+
+main li img {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+}
+
+.item-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-content h2 {
+  margin: 0;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions a {
+  text-decoration: none;
+  padding: 6px;
+  color: rgb(22, 211, 228);
+  border-radius: 5px;
+}
+
+.actions a:hover,
+.actions a:active {
+  padding: 6px;
+  background-color: rgb(235, 253, 255);
+}
+
+@media (max-width: 62rem) {
+  #img-detail {
+    height: 22rem;
+  }
+
+  main li {
+    flex-direction: column;
+  }
+
+  main li img {
+    width: 100%;
+    height: 50%;
+  }
+
+  .different-img-height {
+    height: 60%;
+  }
+}
+
+@media (max-width: 30rem) {
+  #img-detail {
+    height: 18rem;
+  }
+  main ul {
+    grid-template-columns: 1fr;
+  }
+
+  main li:nth-of-type(3),
+  li:nth-of-type(6) {
+    grid-column: 1;
+  }
+
+  main li img {
+    width: 100%;
+    height: 50%;
+  }
+}
