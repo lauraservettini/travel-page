@@ -5,7 +5,7 @@ function sendEmail(event) {
   const emailValue = document.getElementById("yourEmail").value;
   const oggettoValue = document.getElementById("oggetto").value;
   const messageValue = document.getElementById("message").value;
-  const contactUsEmail = "lauraservettini87@gmail.com";
+  const contactUsEmail = "test@test.com";
 
   //invio mail con mailto e proprio browser
   if (
